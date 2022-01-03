@@ -1,0 +1,64 @@
+table.kulso{
+    height: auto;
+    background-color: blue;
+    width: 100%;
+}
+tr.alap{
+    background-color: brown;
+    padding: 2px;
+}
+table.belso{
+    background-color: cadetblue;
+    width: 100%;
+}
+tr.felso{
+    background-color: crimson;
+    height: 400px;
+    width: 100%;
+}
+tr.cellaar{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    font-weight: bold;
+    height: 70px;
+    background-color: cyan;
+    padding-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px; 
+}
+td.cellakulso{
+    background-color: darkgoldenrod;
+    padding: 10px;
+}
+button.vasar{
+    height: 50px;
+    width: 170px;
+    float: right;
+    background-color: blue;
+}
+table, tr, td{
+    padding: 10px
+}
+p.gombszoveg{
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 25px;
+    padding-top: 0px;
+    margin: 0px;
+}
+p.termekcim{
+    font-style: italic;
+    font-weight: 500;
+    vertical-align: unset;
+    font-size: 20px;
+}
+img.termekkep{
+    border: solid 1px black;
+    height: auto;
+    width: 300px;
+}
+img.magaskep{
+    height: 310px;
+    width: auto;
+}
