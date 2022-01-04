@@ -1,44 +1,53 @@
 table.kulso{
     height: auto;
-    background-color: blue;
+    background-color: rgb(134, 134, 134);
     width: 100%;
 }
 tr.alap{
-    background-color: brown;
+    background-color: white;
     padding: 2px;
 }
 table.belso{
-    background-color: cadetblue;
+    background-color: rgb(150, 150, 150);
     width: 100%;
 }
 tr.felso{
-    background-color: crimson;
+    background-color: white;
     height: 400px;
     width: 100%;
 }
 tr.cellaar{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 35px;
-    font-weight: bold;
     height: 70px;
-    background-color: cyan;
+    background-color: rgb(39, 39, 39);
     padding-right: 0px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px; 
 }
+td.ar{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    padding-top: 5px;
+}
 td.cellakulso{
-    background-color: darkgoldenrod;
+    background-color: rgb(59, 56, 56);
     padding: 10px;
+    width: 25%;
+    
 }
 button.vasar{
-    height: 50px;
-    width: 170px;
+    height: 60px;
+    width: 150px;
     float: right;
-    background-color: blue;
+    background-color: rgb(0, 0, 0);
 }
 table, tr, td{
-    padding: 10px
+    padding: 10px;
+    color: black;
 }
 p.gombszoveg{
     font-weight: bold;
@@ -54,11 +63,42 @@ p.termekcim{
     font-size: 20px;
 }
 img.termekkep{
-    border: solid 1px black;
     height: auto;
     width: 300px;
 }
 img.magaskep{
-    height: 310px;
+    height: 300px;
     width: auto;
+}
+p.elerheto{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    padding: 0px;
+}
+p.cellanem{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    background-color: rgb(39, 39, 39);
+}
+html{
+    background-color: black;
+    color: white;
+}
+p.vasarerosito{
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 0, 0, 0.295);
+}
+button.vasare{
+    width: 400px;
+    height: 100px;
+    float: center;
+    background-color: black;
+    color: white;
+    border: white 1px solid;
+    border-radius: 30px;
 }
