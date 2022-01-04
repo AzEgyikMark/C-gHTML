@@ -1,4 +1,9 @@
 html{
-    background-color: black;
-    color: white;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+img.kirakoskep{
+    float: right;
+    height: 50px;
+    width: 50px;
 }
