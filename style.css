@@ -77,3 +77,6 @@ table, tr, td{
     color: black;
     border-collapse:separate
 }
+img{
+    border: 1px black solid;
+}
