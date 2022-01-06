@@ -1,0 +1,32 @@
+html{
+    background-color: black;
+}
+body{
+    margin: 6%;
+    color: white;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    padding: 30px;
+}
+.logo{
+    height: 300px;
+    width: auto;
+    border: rgba(0, 0, 0, 0.548) solid 3px;
+}
+p.rolunkszoveg{
+    padding-left: 50px;
+    padding-top: 0px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+}
+button.bomb{
+    background-color: black;
+    color: white;
+}
